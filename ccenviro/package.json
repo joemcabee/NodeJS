@@ -1,0 +1,11 @@
+{
+  "name": "ccsensor",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "~1.17.2",
+    "express": "~4.15.4",
+    "rpio": "~0.9.17",
+    "simple-node-logger": "^0.93.30",
+    "sleep": "~5.1.1"
+  }
+}

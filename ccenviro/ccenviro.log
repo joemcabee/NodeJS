@@ -1,0 +1,24 @@
+17:36:34.088 INFO  Something is happening. 
+17:36:42.561 INFO  Something is happening. 
+17:36:42.573 INFO  Temp GET Start 
+17:36:42.600 INFO   
+17:36:42.630 INFO  Temp GET End 
+17:36:46.556 INFO  Something is happening. 
+17:36:46.562 INFO  Light GET Start 
+17:36:46.589 ERROR getAverageReading is not defined
+ReferenceError: getAverageReading is not defined
+    at Object.module.exports.readValue (/home/pi/apps/node/ccenviro/photo.js:6:16)
+    at /home/pi/apps/node/ccenviro/server.js:53:33
+    at Layer.handle [as handle_request] (/home/pi/apps/node/ccenviro/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/pi/apps/node/ccenviro/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/pi/apps/node/ccenviro/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/pi/apps/node/ccenviro/node_modules/express/lib/router/layer.js:95:5)
+    at /home/pi/apps/node/ccenviro/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/pi/apps/node/ccenviro/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/pi/apps/node/ccenviro/node_modules/express/lib/router/index.js:275:10)
+    at /home/pi/apps/node/ccenviro/server.js:37:5 
+17:36:46.599 INFO  Light GET End 
+17:37:20.866 INFO  Something is happening. 
+17:37:20.879 INFO  Light GET Start 
+17:37:20.904 INFO   
+17:37:21.032 INFO  Light GET End 
